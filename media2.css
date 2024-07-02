@@ -1,0 +1,135 @@
+/* Max-width: 320px */
+@media screen and (max-width: 320px) {
+    .foot-pannel2 ul p {
+        font-size: 11px;
+    }
+    .foot-pannel2 ul a {
+        font-size: 9px;
+    }
+    .shop-section {
+        height: 1056px; /* Adjusted height */
+    }
+    .hero-section {
+        height: 128px;
+        width: 100%;
+    }
+}
+
+/* Max-width: 425px */
+@media screen and (max-width: 425px) {
+    .hide2 {
+        display: none;
+    }
+    .shop-section {
+        height: 1056px; /* Adjusted height */
+    }
+    .hero-section {
+        height: 171px; /* Adjusted height */
+        width: 100%;
+    }
+}
+
+/* Max-width: 768px */
+@media screen and (max-width: 768px) {
+    .box {
+        width: 48%;
+    }
+    .shop-section {
+        height: 1670px; /* Adjusted height */
+    }
+    .box-img {
+        height: 271px;
+    }
+    .box {
+        height: 342px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    .hero-section {
+        height: 171px;
+        width: 100%;
+    }
+    .panel-all {
+        display: block;
+    }
+    .panel-ops {
+        position: absolute;
+        overflow: initial;
+    }
+    .panel-ops p {
+        flex-direction: column;
+        display: none;
+    }
+    .medop {
+        width: 20px;
+    }
+    #toggle {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+/* Max-width: 1024px */
+@media screen and (max-width: 1024px) {
+    .hero-section{
+        background-size: cover;
+        width: 100%;
+        height: 129px;
+    }
+    .box-img {
+        height: 126px; /* Adjusted height */
+    }
+    .box {
+        height: 197px; /* Adjusted height */
+    }
+    .shop-section {
+        height: auto; /* Adjusted height */
+    }
+    .nav-search {
+        width: 30%;
+    }
+    #toggle {
+        display: block;
+    }
+    .hide {
+        display: none;
+    }
+    #menulist {
+        top: 0%;
+        position: absolute;
+        background-color: rgb(2, 25, 44);
+        width: 30%;
+        height: 100%; /* Adjusted height */
+        color: white;
+        display: block;
+    }
+    #menulist.active {
+        animation: slide-in 0.3s ease-in-out;
+    }
+    #menulist:not(.active) {
+        animation: slide-out 0.3s ease-in-out forwards;
+    }
+    @keyframes slide-in {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    @keyframes slide-out {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    .edit {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

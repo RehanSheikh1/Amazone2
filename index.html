@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Amazone Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="amz.css"> 
+    <link rel="stylesheet" href="media2.css">
+
+
+</head>
+<body> 
+    <header>
+        <!--navbar-->
+         <div class="navbar">
+             <div class="nav-logo border">
+                <div class="logo" onclick="document.location='index.html'">
+
+                </div>
+             </div>
+             <div class="nav-address border hide2">
+                <p class="add-first"> Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+             </div>
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                        <option>Musical Instrument</option>
+                        <option>Amazon Devices</option>
+                        <option>Grocery</option>
+                        <option>Clothes</option>
+                    </select>
+                    <input placeholder="Search Amazon" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars toggle" id="toggle"></i>  
+                <div class="nav-signin border hide">
+                    <p onclick="document.location='Login.html'"><span>Hello, sign in  </span></p>
+                    <p class="nav-second">Account & Lists</p>
+                </div>
+                <div class="nav-return border hide">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>
+                <div class="nav-cart border hide">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </div> 
+         </div>
+         <!--panel-->
+         <div class="panel">
+            <div class="panel-all border">
+                 <!-- <i class="fa-solid fa-bars toggle" id="toggle"></i> -->
+                  All
+                <select class="medop">
+                    <option>All</option>
+                    <option>Fresh</option>
+                    <option>Amazon miniTV</option>
+                    <option>Sell</option>
+                    <option>Best Sellers</option>
+                    <option>Today's Deals</option>
+                    <option>Mobiles</option>
+                </select>       
+            </div>
+            <div class="panel-ops">
+               <p class="border">Fresh</p> 
+               <p class="border">Amazon miniTV</p>
+               <p class="border">Sell</p>
+               <p class="border">Best Sellers</p>
+               <p class="border">Today's Deals</p>
+               <p class="border">Mobiles</p>
+            </div>
+            <div class="addmini border">
+                Mini TV
+            </div>
+         </div>
+        </header>
+    <div class="hero-section text">
+    </div>
+        <div class="shop-section">
+            <div class="box1 box text">
+                <div class="box-content">
+                  <h2> Clothes</h2>
+                  <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                  <p>see more</p>
+                </div>
+            </div>
+            <div class="box2 box text">
+                <div class="box-content">
+                    <h2> Daily needs</h2>
+                    <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+            <div class="box3 box text">
+                <div class="box-content">
+                    <h2> Interior</h2>
+                    <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+            <div class="box4 box text">
+                <div class="box-content">
+                    <h2> Phone</h2>
+                    <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+            <div class="box5 box text">
+                <div class="box-content">
+                  <h2> Beauty Product</h2>
+                  <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                  <p>see more</p>
+                </div>
+            </div>
+            <div class="box6 box text">
+                <div class="box-content">
+                    <h2> Pets</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');" alt="img"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+            <div class="box7 box text">
+                <div class="box-content">
+                    <h2> Craft</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+            <div class="box8 box text">
+                <div class="box-content">
+                    <h2> Design</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                    <p>see more</p>
+                  </div>
+            </div>
+        </div>
+        <div class="menulist">
+        <ul id="menulist">
+            <li>
+                <div class="nav-signin border edit">
+                    <p onclick="document.location='Login.html'"><span> sign in  </span></p>
+                    <p class="nav-second">Account</p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-return border edit">
+                    <p><span>Returns</span></p>
+                    <p class="nav-second">& Orders</p>
+                </div>  
+            </li>
+            <li>
+                <div class="nav-cart border edit">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                </div> 
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="foot-pannel1">
+            Back to Top
+        </div>
+       <div class="foot-pannel2 text">
+            <ul>
+                <p>Contact us</p>
+                <a>Owner1</a>
+                <a>Owner2</a>
+                <a>Owner3</a>
+            </ul>
+            <ul>
+                <p>Contact us</p>
+                <a>Owner1</a>
+                <a>Owner2</a>
+                <a>Owner3</a>
+            </ul>
+            <ul>
+                <p>Contact us</p>
+                <a>Owner1</a>
+                <a>Owner2</a>
+                <a>Owner3</a>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        const togglebtn = document.querySelector('#toggle');
+        const menulist = document.querySelector('#menulist');
+
+        togglebtn.addEventListener('click',function(){
+            menulist.classList.toggle('active');
+        });
+
+
+    </script>
+</body>
+</html>
